@@ -1,0 +1,7 @@
+index:
+   path: /
+   controller: App\Controller\HomeController::index
+
+weather:
+    path: api/weather/country/{country}/city/{city}
+    controller: App\Controller\ApiController:getWeather
